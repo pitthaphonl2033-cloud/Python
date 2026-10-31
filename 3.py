@@ -80,5 +80,46 @@ t.write(
     "Happy Halloween",
     font=("arial",20, "bold")
 )
+
+
+t.goto(120,30)
 t.pendown()
-t.ht()
+Shape = input ("Shape: ")
+if Shape=="circle":
+    t.circle(100)
+elif Shape=="Circle":
+    t.circle(10)
+elif Shape=="triangle":
+    t.forward(500)
+    t.right(120)
+    t.forward(500)
+    t.right(120)
+    t.forward(500)
+    t.right(120)
+elif Shape=="Triangle":
+    t.forward(20)
+    t.right(120)
+    t.forward(20)
+    t.right(120)
+    t.forward(20)
+    t.right(120)
+elif Shape=="square":
+    t.forward(30)
+    t.right(90)
+    t.forward(30)
+    t.right(90)
+    t.forward(30)
+    t.right(90)
+    t.forward(30)
+    t.right(90)
+elif Shape=="Square":
+    t.forward(676)
+    t.right(90)
+    t.forward(676)
+    t.right(90)
+    t.forward(676)
+    t.right(90)
+    t.forward(676)
+    t.right(90)
+else:
+    print("Invalid Shape")
