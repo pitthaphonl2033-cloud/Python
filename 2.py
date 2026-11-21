@@ -85,3 +85,9 @@ if cash >= total:
     print("Change:$", change)
 else:
     print("Not enough money!")
+
+
+
+check=(input("Done? Press 0 Not yet? Press 1"))
+   if check=="0":
+       break
